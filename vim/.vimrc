@@ -10,3 +10,7 @@ map <F6> :setlocal spell! spelllang=en_us<CR>
 map <C-n> :tabn<CR>
 map <C-p> :tabp<CR>
 map <Leader>e :tabe 
+
+"set up find-in-files
+map <Leader>f :execute "vimgrep /" .expand("<cword>") . "/] **" <Bar> cw<CR>
+set switchbuf+=usetab,newtab
