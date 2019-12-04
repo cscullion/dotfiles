@@ -12,5 +12,5 @@ map <C-p> :tabp<CR>
 map <Leader>e :tabe 
 
 "set up find-in-files
-map <Leader>f :execute "vimgrep /" .expand("<cword>") . "/] **" <Bar> cw<CR>
+map <Leader>f :execute "grep -i -F " .expand("<cword>") " -r *" <Bar> cw<CR>
 set switchbuf+=usetab,newtab
