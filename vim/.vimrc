@@ -1,7 +1,8 @@
 "set number
 set mouse-=a
 set clipboard=unnamedplus
-set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+"set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+set tabstop=4 softtabstop=0 noexpandtab shiftwidth=4
 
 "Spell-check set to F6
 map <F6> :setlocal spell! spelllang=en_us<CR>
