@@ -7,7 +7,7 @@
 unclutter --idle 2 &
 
 # run dunst for notifications
-# dunst &
+dunst &
 
 # run the battery low warning script
 bat-warn &
