@@ -1,0 +1,4 @@
+URxvt.font: xft:monospace:size=12
+URxvt.scrollBar: false
+URxvt.foreground: White
+URxvt.background: Black
