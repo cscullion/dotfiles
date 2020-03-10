@@ -13,7 +13,11 @@ dunst &
 bat-warn &
 
 # setup touchpad tap-to-click (300) and natural scrolling (308)
-xinput set-prop 10 300 1
-xinput set-prop 10 308 1
+# xinput set-prop 10 300 1
+# xinput set-prop 10 308 1
+
+# with touchpad disabled, meaning of property 300 changes to natural scrolling
+# turn it off to match stupid windows machines where this can't be changed
+xinput set-prop 10 300 0
 
 exec i3
