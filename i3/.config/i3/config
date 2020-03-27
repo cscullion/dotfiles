@@ -177,7 +177,7 @@ bar {
 
 set $mode_system System (l) lock, (e) logout, (s) suspend, (r) reboot, (Shift+s) shutdown
    mode "$mode_system" {
-        bindsym l exec --no-startup-id i3lock -i /home/chris/Pictures/moon_tree_starry_sky_132139_1366x768.png, mode "default"
+        bindsym l exec --no-startup-id i3lock -i /home/chris/Pictures/lock_screen.png, mode "default"
         bindsym e exec --no-startup-id i3-msg exit, mode "default"
         bindsym s exec --no-startup-id systemctl suspend, mode "default"
         bindsym r exec --no-startup-id reboot, mode "default"
