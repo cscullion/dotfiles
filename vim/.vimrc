@@ -16,3 +16,6 @@ map <Leader>e :tabe
 "set up find-in-files
 map <Leader>f :execute "grep -i -F " .expand("<cword>") " -r *" <Bar> cw<CR>
 set switchbuf+=usetab,newtab
+
+"set up visible whitespace characters -- show with ":set list"
+:set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
