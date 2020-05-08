@@ -21,4 +21,4 @@ bat-warn &
 xinput set-prop 10 300 0
 
 exec i3
-#exec ~/dwm/dwm
+#exec dwm
