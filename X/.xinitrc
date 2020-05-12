@@ -21,4 +21,6 @@ bat-warn &
 xinput set-prop 10 300 0
 
 exec i3
+
+#/home/chris/bin/dwmbar &
 #exec dwm
