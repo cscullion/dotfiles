@@ -19,3 +19,6 @@ set switchbuf+=usetab,newtab
 
 "set up visible whitespace characters -- show with ":set list"
 :set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<
+
+"set up make command
+map <Leader>m :w \| !make<CR>
