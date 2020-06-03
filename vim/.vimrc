@@ -22,3 +22,8 @@ set switchbuf+=usetab,newtab
 
 "set up make command
 map <Leader>m :w \| !make<CR>
+
+"set whitespace characters for ':set list'
+"  tab: unicode u00ac
+"  eol: unicode u21b2
+set listchars=tab:¬\ ,eol:↲
