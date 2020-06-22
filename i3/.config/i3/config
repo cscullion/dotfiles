@@ -207,5 +207,5 @@ bindsym --release Shift+Print exec "scregcp -s /home/chris/Pictures/screenshots/
 # take a screenshot of a whole window
 bindsym --release Print exec "scregcp /home/chris/Pictures/screenshots/"
 
-# Youtube download list play
+# YouTube download list play
 bindsym $mod+y exec ytp
