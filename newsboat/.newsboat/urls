@@ -1,17 +1,9 @@
-=====================================================NEWS
-http://feeds.foxnews.com/foxnews/latest "~FoxNews" news
-http://rss.cnn.com/rss/cnn_topstories.rss "~CNN" news
-https://www.ajc.com/news/breaking-news-from-ajc/DdLZ2Y64tdYPqiOr3NxAwI/rss/ "~AJC" news
-https://nitter.net/GwinnettDaily/rss "~Gwinnet Daily Post Twitter feed" news
-https://nitter.net/Talkmaster/rss "~Neal Boortz Twitter feed" news
 =====================================================TECH
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA "~Luke Smith (yt)" tech youtube
 http://lukesmith.xyz/rss.xml tech
 http://www.archlinux.org/feeds/news/ tech
 http://www.aboutchromebooks.com/feed/ tech
-http://feeds.feedburner.com/Liliputing tech
 http://feedproxy.google.com/TheGadgeteer tech
-http://syndication.thedailywtf.com/TheDailyWtf tech
 http://www.engadget.com/rss.xml tech
 http://feeds.feedburner.com/pocketnow tech
 https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA "~Ben Eater (yt)" tech youtube
@@ -36,6 +28,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCLEoyoOKZK0idGqSc6Pi23w "~R
 https://www.youtube.com/feeds/videos.xml?channel_id=UC2DjFE7Xf11URZqWBigcVOQ "~EEVBlog (yt)" tech youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCHkYOD-3fZbuGhwsADBd9ZQ "~Lawrence Systems (yt)" tech youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UC-wmf-Avorzz9QPKzdYFgeg "~Laptop Retrospecive (yt)" tech youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6mIxFTvXkWQVEHPsEdflzQ "~GreatScott (yt)" tech youtube
 =====================================================COMICS
 http://xkcd.com/rss.xml comics
 http://feeds.feedburner.com/basicinst comics
@@ -60,7 +53,12 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC4sEmXUuWIFlxRIFBRV6VXQ "~T
 https://www.youtube.com/feeds/videos.xml?channel_id=UCGaVdbSav8xWuFWTadK6loA "~vlogbrothers (yt)" misc youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCi5iiEyLwSLvlqnMi02u5gQ "~Ask A Mortician (yt)" misc youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCHIt01zPTy4QKG9fVCMh3eA "~John Fogerty (yt)" misc youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCSju5G2aFaWMqn-_0YBtq5A "~Standup Maths (yt)" misc youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCtwKon9qMt5YLVgQt1tvJKg "~Objectivity (yt)" misc youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCS4cQA4EXGwPritsrASNFEg "~Two Paddocks (yt)" misc youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCD_TyDlsLCmsotFsojlDEcg "~Memory Lane Trips with Steve (yt)" misc youtube
 =====================================================RELIGION_AND_POLITICS
+https://nitter.net/Talkmaster/rss "~Neal Boortz Twitter feed" news
 http://feeds.feedburner.com/reason/AllArticles "religion and politics"
 http://www.skeptic.com/rss.xml "religion and politics"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCJdKr0Bgd_5saZYqLCa9mng "~The Rubin Report (yt)" "religion and politics" youtube
