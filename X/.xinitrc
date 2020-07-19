@@ -22,5 +22,5 @@ xinput set-prop 10 300 0
 
 exec i3
 
-#/home/chris/bin/dwmbar &
+#/home/chris/scripts/dwmbar &
 #exec dwm
