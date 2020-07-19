@@ -27,3 +27,6 @@ map <Leader>m :w \| !make<CR>
 "  tab: unicode u00ac
 "  eol: unicode u21b2
 set listchars=tab:¬\ ,eol:↲
+
+"set visual select color
+hi Visual term=standout ctermfg=4 ctermbg=248
