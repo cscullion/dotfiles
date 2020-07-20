@@ -30,3 +30,7 @@ set listchars=tab:¬\ ,eol:↲
 
 "set visual select color
 hi Visual term=standout ctermfg=4 ctermbg=248
+hi DiffChange term=bold ctermbg=100 guibg=LightMagenta
+hi DiffText term=bold ctermbg=150 guibg=LightMagenta
+hi SpellBad term=reverse ctermbg=100 gui=undercurl guisp=Red
+hi SpellRare term=reverse ctermbg=100 gui=undercurl guisp=Red
