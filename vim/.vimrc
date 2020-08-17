@@ -29,14 +29,14 @@ map <Leader>m :w \| !make<CR>
 set listchars=tab:¬\ ,eol:↲
 
 "set visual select color
-hi Visual term=standout ctermfg=4 ctermbg=248
-hi DiffChange term=bold ctermbg=100 guibg=LightMagenta
-hi DiffText term=bold ctermbg=150 guibg=LightMagenta
-hi DiffAdd term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
-hi SpellBad term=reverse ctermbg=100 gui=undercurl guisp=Red
-hi SpellRare term=reverse ctermbg=100 gui=undercurl guisp=Red
-hi SpellCap term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
-hi SpellLocal term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
-hi MatchParen term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
-hi ToolbarLine term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
-hi Search term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
+"hi Visual term=standout ctermfg=4 ctermbg=248
+"hi DiffChange term=bold ctermbg=100 guibg=LightMagenta
+"hi DiffText term=bold ctermbg=150 guibg=LightMagenta
+"hi DiffAdd term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
+"hi SpellBad term=reverse ctermbg=100 gui=undercurl guisp=Red
+"hi SpellRare term=reverse ctermbg=100 gui=undercurl guisp=Red
+"hi SpellCap term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
+"hi SpellLocal term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
+"hi MatchParen term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
+"hi ToolbarLine term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
+"hi Search term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
