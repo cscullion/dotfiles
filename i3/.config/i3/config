@@ -211,3 +211,6 @@ bindsym --release Print exec "scregcp /home/chris/Pictures/screenshots/"
 
 # YouTube download list play
 bindsym $mod+y exec ytp
+
+# passmenu
+bindsym $mod+p exec passmenu
