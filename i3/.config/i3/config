@@ -204,10 +204,12 @@ bindcode 198 exec pulseaudio-ctl mute-input & refresh-i3status
 bindsym $mod+b exec --no-startup-id qutebrowser /home/chris/nc/bookmarks.html
 
 # take a screenshot of a screen region
-bindsym --release Shift+Print exec "scregcp -s /home/chris/Pictures/screenshots/"
+# bindsym --release Shift+Print exec "scregcp -s /home/chris/Pictures/screenshots/"
+bindsym --release Shift+Print exec "scrshot -s"
 
 # take a screenshot of a whole window
-bindsym --release Print exec "scregcp /home/chris/Pictures/screenshots/"
+# bindsym --release Print exec "scregcp /home/chris/Pictures/screenshots/"
+bindsym --release Print exec "scrshot"
 
 # YouTube download list play
 bindsym $mod+y exec ytp
