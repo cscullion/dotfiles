@@ -5,11 +5,11 @@ https://videos.lukesmith.xyz/feeds/videos.xml?videoChannelId=2 "~Luke Smith (pt)
 http://www.archlinux.org/feeds/news/ tech
 http://www.aboutchromebooks.com/feed/ tech
 http://the-gadgeteer.com/feed/ tech
-http://feeds.feedburner.com/pocketnow tech
 https://www.youtube.com/feeds/videos.xml?channel_id=UCS0N5baNlQWJCUrhCEo8WlA "~Ben Eater (yt)" tech youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA "~Brodie Robertson (yt)" tech youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCtM5z2gkrGRuWd0JQMx76qA "~bigclivedotcom (yt)" tech youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCkK9UDm_ZNrq_rIXCz3xCGA "~Bryan Lunduke (yt)" tech youtube
+https://lbryfeed.melroy.org/channel/tv/lunduke "~Lunduke (lbry)" tech lbry
 https://www.youtube.com/feeds/videos.xml?channel_id=UCbiGcwDWZjz05njNPrJU7jA "~ExplainingComputers (yt)" tech youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCmHvGf00GDuPYG9DZqQKd9A "~Julian Ilett (yt)" tech youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCXfDjPehpC7B7lW2JFxeS4w "~Julian's Shednanigans Ilett (yt)" tech youtube
@@ -65,6 +65,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCtwKon9qMt5YLVgQt1tvJKg "~O
 https://www.youtube.com/feeds/videos.xml?channel_id=UCS4cQA4EXGwPritsrASNFEg "~Two Paddocks (yt)" misc youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UCD_TyDlsLCmsotFsojlDEcg "~Memory Lane Trips with Steve (yt)" misc youtube
 https://www.youtube.com/feeds/videos.xml?channel_id=UC7DdEm33SyaTDtWYGO2CwdA "~Physics Girl (yt)" misc youtube
+https://www.youtube.com/feeds/videos.xml?channel_id=UCe3grVLhUbejPXEaYMHKFbQ "~Behind the Bar (yt)" misc youtube
 ==================================================RELIGION_AND_POLITICS
 https://nitter.net/Talkmaster/rss "~Neal Boortz Twitter feed" news
 http://feeds.feedburner.com/reason/AllArticles "religion and politics"
