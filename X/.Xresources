@@ -1,8 +1,6 @@
-URxvt.perl-ext-common: default,matcher,clipboard
+URxvt.perl-ext-common: default,matcher,clipboard,resize-font
 URxvt.clipboard.autocopy: true
-!URxvt.keysym.M-c: perl:clipboard:copy
-!URxvt.keysym.M-v: perl:clipboard:paste
-URxvt.font: xft:monospace:size=11
+URxvt.font: xft:Noto Sans Mono Medium:pixelsize=11
 URxvt.scrollBar: false
 URxvt.foreground: White
 URxvt.background: Black
@@ -22,3 +20,9 @@ URxvt.keysym.C-M-v:    builtin-string:
 ! I dont know why, but I needed to use hex keysym values to get it to work
 URxvt.keysym.C-S-0x43: eval:selection_to_clipboard
 URxvt.keysym.C-S-0x56: eval:paste_clipboard
+
+! these don't appear to work
+URxvt.keysym.C-plus:     perl:resize-font:bigger
+URxvt.keysym.C-minus:    perl:resize-font:smaller
+URxvt.keysym.C-M-equal:    perl:resize-font:reset
+URxvt.keysym.C-M-question: perl:resize-font:show
