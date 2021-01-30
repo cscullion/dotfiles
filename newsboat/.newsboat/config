@@ -1,6 +1,6 @@
 # general settings
 auto-reload yes
-reload-time 10
+reload-time 15
 max-items 50
 
 # externel browser
