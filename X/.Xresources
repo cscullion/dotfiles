@@ -1,6 +1,6 @@
 URxvt.perl-ext-common: default,matcher,clipboard,resize-font
 URxvt.clipboard.autocopy: true
-URxvt.font: xft:Noto Sans Mono Medium:pixelsize=11
+URxvt.font: xft:Noto Sans Mono Medium:pixelsize=14
 URxvt.scrollBar: false
 URxvt.foreground: White
 URxvt.background: Black
@@ -21,7 +21,6 @@ URxvt.keysym.C-M-v:    builtin-string:
 URxvt.keysym.C-S-0x43: eval:selection_to_clipboard
 URxvt.keysym.C-S-0x56: eval:paste_clipboard
 
-! these don't appear to work
 URxvt.keysym.C-plus:     perl:resize-font:bigger
 URxvt.keysym.C-minus:    perl:resize-font:smaller
 URxvt.keysym.C-M-equal:    perl:resize-font:reset
