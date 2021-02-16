@@ -1,6 +1,6 @@
 URxvt.perl-ext-common: default,matcher,clipboard,resize-font
 URxvt.clipboard.autocopy: true
-URxvt.font: xft:Noto Sans Mono Medium:pixelsize=13
+URxvt.font: xft:Noto Sans Mono Medium:pixelsize=14
 URxvt*letterSpace: -1
 URxvt.scrollBar: false
 URxvt.foreground: White
