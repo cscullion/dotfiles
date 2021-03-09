@@ -1,0 +1,29 @@
+
+
+
+IMAPStore ckscullion_xyz-remote
+Host mail.ckscullion.xyz
+Port 993
+User chris
+PassCmd "pass mutt-wizard-ckscullion_xyz"
+AuthMechs LOGIN
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+MaildirStore ckscullion_xyz-local
+Subfolders Verbatim
+Path ~/.local/share/mail/ckscullion_xyz/
+Inbox ~/.local/share/mail/ckscullion_xyz/INBOX
+Flatten .
+
+Channel ckscullion_xyz
+Expunge Both
+Far :ckscullion_xyz-remote:
+Near :ckscullion_xyz-local:
+Patterns * !"[Gmail]/All Mail"
+Create Both
+SyncState *
+MaxMessages 0
+ExpireUnread no
+# End profile
+
