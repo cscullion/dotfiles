@@ -35,8 +35,9 @@ bind-key ^F pagedown
 # color background         default   default
 # color listnormal         default   default
 # color listnormal_unread  default   default
-# color listfocus          black     cyan
-# color listfocus_unread   black     cyan
+color listfocus          black     cyan
+color listfocus_unread   black     cyan
+color info               black   cyan
 # color info               default   black
 # color article            default   default
 
