@@ -40,3 +40,7 @@ hi DiffAdd term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
 "hi MatchParen term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
 "hi ToolbarLine term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
 "hi Search term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
+
+"set up timestamp insert
+:nnoremap <F5> "=strftime("%Y/%m/%d %H:%M")<CR>Pa
+:inoremap <F5> <C-R>=strftime("%Y/%m/%d %H:%M")<CR>
