@@ -44,3 +44,9 @@ hi DiffAdd term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
 "set up timestamp insert
 :nnoremap <F5> "=strftime("%Y/%m/%d %H:%M")<CR>Pa
 :inoremap <F5> <C-R>=strftime("%Y/%m/%d %H:%M")<CR>
+
+"set up folding
+"see ~/.vim/ftdetect for filetype-specific folding settings
+"folding key maping (plus zR and zM)
+:nnoremap <space> za
+:vnoremap <space> zf
