@@ -1,0 +1,21 @@
+# vim: filetype=neomuttrc
+# muttrc file for account ckscullion@gmail.com
+set realname = "ckscullion"
+set from = "ckscullion@gmail.com"
+set sendmail = "msmtp -a ckscullion@gmail.com"
+alias me ckscullion <ckscullion@gmail.com>
+set folder = "/home/chris/.local/share/mail/ckscullion@gmail.com"
+set header_cache = /home/chris/.cache/mutt-wizard/ckscullion@gmail.com/headers
+set message_cachedir = /home/chris/.cache/mutt-wizard/ckscullion@gmail.com/bodies
+set mbox_type = Maildir
+set hostname = "gmail.com"
+source /usr/local/share/mutt-wizard/switch.muttrc
+set spoolfile = +INBOX
+set postponed = +Drafts
+set trash = +Trash
+set record = +Sent
+
+macro index o "<shell-escape>mw -y ckscullion@gmail.com<enter>" "run mbsync to sync ckscullion@gmail.com"
+
+# mailboxes `mdir=/home/chris/.local/share/mail/ckscullion@gmail.com/; find $mdir -mindepth 1 -type d -name cur | sed -e 's:/cur$:":' -e "s:$mdir:\"=:" | sort | tr '\\n' ' '`
+mailboxes "=Sent" "=INBOX" "=Trash"
