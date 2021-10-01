@@ -15,7 +15,10 @@ set postponed = +Drafts
 set trash = +Trash
 set record = +Sent
 
+set signature = "~/.signature"
+set sig_dashes = yes
+
 macro index o "<shell-escape>mw -y ckscullion@gmail.com<enter>" "run mbsync to sync ckscullion@gmail.com"
 
 # mailboxes `mdir=/home/chris/.local/share/mail/ckscullion@gmail.com/; find $mdir -mindepth 1 -type d -name cur | sed -e 's:/cur$:":' -e "s:$mdir:\"=:" | sort | tr '\\n' ' '`
-mailboxes "=Sent" "=INBOX" "=Trash"
+mailboxes "=Sent" "=INBOX" "=Trash" "=Drafts"

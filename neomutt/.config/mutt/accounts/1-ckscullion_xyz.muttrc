@@ -9,6 +9,9 @@ set header_cache = /home/chris/.cache/mutt-wizard/ckscullion_xyz/headers
 set message_cachedir = /home/chris/.cache/mutt-wizard/ckscullion_xyz/bodies
 set mbox_type = Maildir
 
+# set signature = "~/.signature"
+# set sig_dashes  = yes
+
 set crypt_autosign = no
 set crypt_opportunistic_encrypt = yes
 set pgp_self_encrypt = no
