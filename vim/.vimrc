@@ -23,6 +23,9 @@ set switchbuf+=usetab,newtab
 "set up make command
 map <Leader>m :w \| !make<CR>
 
+"set up daily notes file command
+map <Leader>n :tabe<space>~/notes/<C-R>=strftime("%Y%m%d").".txt"<CR><CR>
+
 "set whitespace characters for ':set list'
 "  tab: unicode u00ac
 "  eol: unicode u21b2
