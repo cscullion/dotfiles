@@ -34,3 +34,5 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export BROWSER=qutebrowser
+
+export TS_MAXFINISHED=1
