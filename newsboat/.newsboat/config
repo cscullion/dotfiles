@@ -2,6 +2,7 @@
 auto-reload yes
 reload-time 15
 max-items 50
+confirm-mark-feed-read no
 
 # externel browser
 browser "/usr/bin/qutebrowser %u"
