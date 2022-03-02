@@ -36,3 +36,7 @@ export EDITOR="$VISUAL"
 export BROWSER=qutebrowser
 
 export TS_MAXFINISHED=1
+
+# environment variables for pass
+export PASSWORD_STORE_CHARACTER_SET='#$%^&!@0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+export PASSWORD_STORE_CHARACTER_SETNO_SYMBOLS='0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
