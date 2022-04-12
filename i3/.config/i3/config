@@ -222,3 +222,6 @@ bindsym $mod+y exec ytp
 
 # passmenu
 bindsym $mod+p exec passmenu
+
+# auto start my applications
+exec /home/chris/scripts/auto-start
