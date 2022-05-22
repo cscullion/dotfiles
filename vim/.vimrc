@@ -12,6 +12,7 @@ map <F6> :setlocal spell! spelllang=en_us<CR>
 map <C-n> :tabn<CR>
 map <C-p> :tabp<CR>
 map <Leader>e :tabe 
+map <Leader>g <C-w>gf
 
 "set up find-in-files
 map <Leader>f :execute "grep -i -F " .expand("<cword>") " -r *" <Bar> cw<CR>
