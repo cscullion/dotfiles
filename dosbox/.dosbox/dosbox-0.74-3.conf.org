@@ -25,9 +25,9 @@
 
 fullscreen=false
 fulldouble=false
-fullresolution=1024x768
-windowresolution=1024x768
-output=openglnb
+fullresolution=original
+windowresolution=original
+output=surface
 autolock=true
 sensitivity=100
 waitonerror=true
@@ -60,7 +60,7 @@ memsize=16
 #            Possible values: none, normal2x, normal3x, advmame2x, advmame3x, advinterp2x, advinterp3x, hq2x, hq3x, 2xsai, super2xsai, supereagle, tv2x, tv3x, rgb2x, rgb3x, scan2x, scan3x.
 
 frameskip=0
-aspect=true
+aspect=false
 scaler=normal2x
 
 [cpu]
@@ -222,8 +222,8 @@ buttonwrap=false
 # serial4: see serial1
 #          Possible values: dummy, disabled, modem, nullmodem, directserial.
 
-serial1=dummy
-serial2=dummy
+serial1=modem listenport:5000
+serial2=disabled
 serial3=disabled
 serial4=disabled
 
@@ -248,3 +248,4 @@ ipx=false
 # You can put your MOUNT lines here.
 
 mount c ~/retrocomp/DOS
+PATH=Z:\;C:\TC
