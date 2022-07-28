@@ -52,5 +52,6 @@ hi DiffAdd term=standout ctermfg=0 ctermbg=11 guifg=Black guibg=Yellow
 "set up folding
 "see ~/.vim/ftdetect for filetype-specific folding settings
 "folding key maping (plus zR and zM)
-:nnoremap <space> za
-:vnoremap <space> zf
+":nnoremap <space> za
+":vnoremap <space> zf
+set nofoldenable
