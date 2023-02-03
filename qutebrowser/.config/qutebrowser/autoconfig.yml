@@ -22,10 +22,15 @@ settings:
         K: tab-prev
   colors.webpage.darkmode.enabled:
     global: false
+  content.blocking.enabled:
+    global: true
   content.desktop_capture:
     https://ncr.webex.com: true
   content.geolocation:
     https://www.sprint.com: true
+  content.headers.user_agent:
+    global: Mozilla/5.0 ({os_info}) AppleWebKit/{webkit_version} (KHTML, like Gecko)
+      {qt_key}/{qt_version} {upstream_browser_key}/{upstream_browser_version} Safari/{webkit_version}
   content.media.audio_capture:
     https://ncr.webex.com: true
   content.media.audio_video_capture:
