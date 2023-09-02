@@ -21,10 +21,6 @@ set -o vi
 #alias sudo="sudo "
 alias sudo="doas "
 alias vi="vim"
-alias rm="rm -i"
-
-# this alias is for the python-based trash handler
-alias trm='trash-put'
 
 # key bindings
 #

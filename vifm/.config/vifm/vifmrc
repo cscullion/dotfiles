@@ -170,6 +170,10 @@ command! reload :write | restart
 " You can also add %CLEAR if you want to clear screen before running FUSE
 " program.
 
+" markdown
+filetype *.md mdless %c
+fileviewer *.md mdless
+
 " Pdf
 filextype *.pdf zathura %c %i &, apvlv %c, xpdf %c
 fileviewer *.pdf pdftotext -nopgbrk %c -
