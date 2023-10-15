@@ -225,5 +225,9 @@ bindsym $mod+y exec ytp
 # passmenu
 bindsym $mod+p exec passmenu
 
+# docking station monitor switch
+bindsym $mod+m exec monitor-dock
+bindsym $mod+Shift+m exec monitor-single
+
 # auto start my applications
 exec /home/chris/scripts/auto-start

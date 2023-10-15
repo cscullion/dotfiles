@@ -10,7 +10,7 @@ alias ll='ls -ltr'
 alias df='df -x tmpfs'
 alias nt='nt -n'
 alias display='display -resize 675x450'
-alias lp='lp ckscullion@gmail.com'
+alias radio='/home/chris/src/radio-active/venv/bin/radio'
 
 # PS1='[\u@\h \W]\$ '
 export PS1="\A [\u@\h \W]\\$ \[$(tput sgr0)\]"
