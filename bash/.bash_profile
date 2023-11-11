@@ -8,6 +8,6 @@ export XDG_DATA_HOME=$HOME/.local/share
  
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-PATH="$HOME/bin:$HOME/.local/bin:$PATH:$HOME/scripts:$HOME/.platformio/penv/bin"
+PATH="$HOME/bin:$HOME/scripts:$HOME/.local/bin:$PATH:$HOME/.platformio/penv/bin"
 alias vi=vim
 alias xclip='xclip -r -selection clipboard'
