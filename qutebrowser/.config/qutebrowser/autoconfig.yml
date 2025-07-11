@@ -37,10 +37,15 @@ settings:
     global: true
   content.media.audio_capture:
     https://ncr.webex.com: true
+    https://teams.microsoft.com: true
   content.media.audio_video_capture:
     https://ncr.webex.com: true
+    https://teams.microsoft.com: true
   content.media.video_capture:
     https://ncr.webex.com: true
+    https://teams.microsoft.com: true
+  content.pdfjs:
+    global: false
   downloads.location.prompt:
     global: false
   fonts.default_family:

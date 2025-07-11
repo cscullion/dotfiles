@@ -208,7 +208,7 @@ bindsym XF86AudioLowerVolume exec pulseaudio-ctl down 5 & refresh-i3status
 bindsym XF86AudioRaiseVolume exec pulseaudio-ctl up 5 & refresh-i3status
 bindcode 198 exec pulseaudio-ctl mute-input & refresh-i3status
 
-bindsym $mod+b exec --no-startup-id qutebrowser /home/chris/Dropbox/bookmarks.html
+bindsym $mod+b exec --no-startup-id qutebrowser /home/chris/bookmarks.html
 #bindsym $mod+b exec --no-startup-id qutebrowser http://localhost/
 
 # take a screenshot of a screen region
@@ -224,6 +224,10 @@ bindsym $mod+y exec ytp
 
 # passmenu
 bindsym $mod+p exec passmenu
+
+# external monitor switching
+bindsym $mod+F7 exec monitor-single
+bindsym $mod+Shift+F7 exec monitor-dual
 
 # auto start my applications
 exec /home/chris/scripts/auto-start
