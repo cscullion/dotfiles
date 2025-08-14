@@ -28,14 +28,19 @@ settings:
     https://ncr.webex.com: true
   content.geolocation:
     https://www.sprint.com: true
+    https://www.wsbradio.com: false
   content.headers.user_agent:
     global: Mozilla/5.0 ({os_info}) AppleWebKit/{webkit_version} (KHTML, like Gecko)
       {qt_key}/{qt_version} {upstream_browser_key}/{upstream_browser_version} Safari/{webkit_version}
+  content.javascript.clipboard:
+    https://dashboard.clerk.com: access-paste
+    https://replit.com: access-paste
   content.local_content_can_access_file_urls:
     global: true
   content.local_content_can_access_remote_urls:
     global: true
   content.media.audio_capture:
+    https://my-vasa-me-mquaschnick.replit.app: true
     https://ncr.webex.com: true
     https://teams.microsoft.com: true
   content.media.audio_video_capture:

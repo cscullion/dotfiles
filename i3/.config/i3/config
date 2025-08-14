@@ -213,11 +213,13 @@ bindsym $mod+b exec --no-startup-id qutebrowser /home/chris/bookmarks.html
 
 # take a screenshot of a screen region
 # bindsym --release Shift+Print exec "scregcp -s /home/chris/Pictures/screenshots/"
-bindsym --release Shift+Print exec "scrshot -s"
+#bindsym --release Shift+Print exec "scrshot -s"
+bindsym --release Shift+Print exec "flameshot gui"
 
 # take a screenshot of a whole window
 # bindsym --release Print exec "scregcp /home/chris/Pictures/screenshots/"
-bindsym --release Print exec "scrshot"
+#bindsym --release Print exec "scrshot"
+bindsym --release Print exec "flameshot full"
 
 # YouTube download list play
 bindsym $mod+y exec ytp
