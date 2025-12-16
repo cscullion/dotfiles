@@ -43,6 +43,7 @@ settings:
     https://my-vasa-me-mquaschnick.replit.app: true
     https://ncr.webex.com: true
     https://teams.microsoft.com: true
+    https://www.ivasa-ai.com: true
   content.media.audio_video_capture:
     https://ncr.webex.com: true
     https://teams.microsoft.com: true
@@ -53,6 +54,7 @@ settings:
     global: false
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: true
+    https://outlook.office365.com?mailtouri=%25s: true
   downloads.location.prompt:
     global: false
   fonts.default_family:
