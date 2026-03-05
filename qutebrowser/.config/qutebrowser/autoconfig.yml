@@ -35,7 +35,10 @@ settings:
   content.javascript.clipboard:
     https://dashboard.clerk.com: access-paste
     https://drive.google.com: access-paste
+    https://outlook.office365.com: access-paste
     https://replit.com: access-paste
+    https://search.brave.com: access-paste
+    https://www.patreon.com: access-paste
   content.local_content_can_access_file_urls:
     global: true
   content.local_content_can_access_remote_urls:
@@ -51,10 +54,14 @@ settings:
   content.media.video_capture:
     https://ncr.webex.com: true
     https://teams.microsoft.com: true
+  content.notifications.enabled:
+    https://calendar.google.com: false
   content.pdfjs:
     global: false
   content.register_protocol_handler:
+    https://calendar.google.com?cid=%25s: false
     https://mail.google.com?extsrc=mailto&url=%25s: true
+    https://outlook.cloud.microsoft?mailtouri=%25s: false
     https://outlook.office365.com?mailtouri=%25s: true
   downloads.location.prompt:
     global: false

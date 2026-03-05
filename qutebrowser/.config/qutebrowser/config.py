@@ -211,3 +211,4 @@ config.bind('K', 'tab-prev')
 config.bind('A', 'hint links spawn yta {hint-url}')
 config.bind('Z', 'hint links spawn ytq {hint-url}')
 config.bind('z', 'click-element css yt-searchbox')
+
