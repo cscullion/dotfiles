@@ -5,6 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+alias rm=' rm -I --preserve-root'
 alias ls='ls --color=auto'
 alias ll='ls -ltr'
 alias df='df -x tmpfs'

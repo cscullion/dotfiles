@@ -33,6 +33,7 @@ settings:
     global: Mozilla/5.0 ({os_info}) AppleWebKit/{webkit_version} (KHTML, like Gecko)
       {qt_key}/{qt_version} {upstream_browser_key}/{upstream_browser_version} Safari/{webkit_version}
   content.javascript.clipboard:
+    https://chatgpt.com: access-paste
     https://dashboard.clerk.com: access-paste
     https://drive.google.com: access-paste
     https://outlook.office365.com: access-paste
