@@ -81,6 +81,8 @@ settings:
     - Fixed
     - Consolas
     - Terminal
+  qt.force_software_rendering:
+    global: chromium
   tabs.position:
     global: top
   url.default_page:
