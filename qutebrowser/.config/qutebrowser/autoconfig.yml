@@ -82,7 +82,7 @@ settings:
     - Consolas
     - Terminal
   qt.force_software_rendering:
-    global: chromium
+    global: none
   tabs.position:
     global: top
   url.default_page:
